@@ -2,7 +2,7 @@
 
 ![Foundry v11](https://img.shields.io/badge/foundry-v11-green)
 
-<img alt="The Heist" src="./images/logos/full.webp" width="300px"/>
+<img alt="The Heist" src="https://raw.githubusercontent.com/DjLeChuck/foundryvtt-system-the-heist/main/images/logos/full.webp" width="300px"/>
 
 _(English version below)_
 
