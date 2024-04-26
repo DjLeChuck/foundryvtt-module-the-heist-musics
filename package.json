@@ -1,0 +1,26 @@
+{
+  "name": "heist-musics",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Compiler for the module The Heist - Official musics",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "DjLeChuck",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.16.4"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "3.6.3"
+  }
+}

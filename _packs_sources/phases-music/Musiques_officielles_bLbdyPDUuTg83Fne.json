@@ -1,0 +1,100 @@
+{
+  "name": "Musiques officielles",
+  "sounds": [
+    {
+      "name": "1. Création des agents",
+      "path": "modules/heist-musics/musics/phase-1.ogg",
+      "_id": "poiylBkv5S3cYtFF",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.3,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.poiylBkv5S3cYtFF"
+    },
+    {
+      "name": "2. Briefing",
+      "path": "modules/heist-musics/musics/phase-2.ogg",
+      "_id": "swFZ5eoRWMX41n1v",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.swFZ5eoRWMX41n1v"
+    },
+    {
+      "name": "3. Reconnaissance",
+      "path": "modules/heist-musics/musics/phase-3.ogg",
+      "_id": "OvR1W41iOafRzFc6",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.OvR1W41iOafRzFc6"
+    },
+    {
+      "name": "4. Préparation",
+      "path": "modules/heist-musics/musics/phase-4.ogg",
+      "_id": "hgPaDjwmGcMCwPFL",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.35,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.hgPaDjwmGcMCwPFL"
+    },
+    {
+      "name": "5. Action",
+      "path": "modules/heist-musics/musics/phase-5.ogg",
+      "_id": "jfH4n3zkdnhhDs7S",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.41,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.jfH4n3zkdnhhDs7S"
+    }
+  ],
+  "mode": -1,
+  "playing": false,
+  "fade": 800,
+  "folder": null,
+  "sorting": "m",
+  "seed": 471,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "heist",
+    "systemVersion": "#{VERSION}#",
+    "coreVersion": "11.315",
+    "createdTime": 1714132101328,
+    "modifiedTime": 1714132215307,
+    "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
+  },
+  "description": "",
+  "_id": "bLbdyPDUuTg83Fne",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "2Ix5Tl3gxkKU6taP": 3
+  },
+  "_key": "!playlists!bLbdyPDUuTg83Fne"
+}
