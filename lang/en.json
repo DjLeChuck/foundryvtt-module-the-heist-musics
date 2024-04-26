@@ -1,2 +1,7 @@
 {
+  "HEISTMUSIC.Settings.Playlist.Title": "Playlist of music for each phase",
+  "HEISTMUSIC.Settings.StopWithPause.Title": "Stop music when game is paused",
+  "HEISTMUSIC.Settings.UseCreationForProgression.Title": "Music from the \"Creation\" phase for the \"Progression\" phase",
+  "HEISTMUSIC.Settings.UseCreationForProgression.Hint": "There is no official music for the \"Progression\" phase. The module will then use the one for the \"Agent creation\" phase.",
+  "HEISTMUSIC.Errors.InvalidSoundsCount": "The selected playlist must include 5 tracks."
 }

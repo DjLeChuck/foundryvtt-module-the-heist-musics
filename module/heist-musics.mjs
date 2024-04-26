@@ -1,3 +1,3 @@
-Hooks.on('init', () => {
-  console.warn('The Heist - Official musics | Initializing Module');
-});
+import { HeistHooks } from './hooks/hooks.mjs';
+
+HeistHooks.listen();
