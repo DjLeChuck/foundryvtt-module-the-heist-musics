@@ -4,72 +4,72 @@
     {
       "name": "1. Création des agents",
       "path": "modules/heist-musics/musics/phase-1.ogg",
-      "_id": "poiylBkv5S3cYtFF",
+      "_id": "HeistPhase1XXXXX",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
-      "volume": 0.3,
+      "volume": 0.5,
       "fade": null,
       "sort": 0,
       "flags": {},
       "description": "",
-      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.poiylBkv5S3cYtFF"
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase1XXXXX"
     },
     {
       "name": "2. Briefing",
       "path": "modules/heist-musics/musics/phase-2.ogg",
-      "_id": "swFZ5eoRWMX41n1v",
+      "_id": "HeistPhase2XXXXX",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
-      "volume": 0.35,
+      "volume": 0.5,
       "fade": null,
       "sort": 0,
       "flags": {},
       "description": "",
-      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.swFZ5eoRWMX41n1v"
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase2XXXXX"
     },
     {
       "name": "3. Reconnaissance",
       "path": "modules/heist-musics/musics/phase-3.ogg",
-      "_id": "OvR1W41iOafRzFc6",
+      "_id": "HeistPhase3XXXXX",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
-      "volume": 0.35,
+      "volume": 0.5,
       "fade": null,
       "sort": 0,
       "flags": {},
       "description": "",
-      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.OvR1W41iOafRzFc6"
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase3XXXXX"
     },
     {
       "name": "4. Préparation",
       "path": "modules/heist-musics/musics/phase-4.ogg",
-      "_id": "hgPaDjwmGcMCwPFL",
+      "_id": "HeistPhase4XXXXX",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
-      "volume": 0.35,
+      "volume": 0.5,
       "fade": null,
       "sort": 0,
       "flags": {},
       "description": "",
-      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.hgPaDjwmGcMCwPFL"
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase4XXXXX"
     },
     {
       "name": "5. Action",
       "path": "modules/heist-musics/musics/phase-5.ogg",
-      "_id": "jfH4n3zkdnhhDs7S",
+      "_id": "HeistPhase5XXXXX",
       "playing": false,
       "pausedTime": null,
       "repeat": true,
-      "volume": 0.41,
+      "volume": 0.5,
       "fade": null,
       "sort": 0,
       "flags": {},
       "description": "",
-      "_key": "!playlists.sounds!bLbdyPDUuTg83Fne.jfH4n3zkdnhhDs7S"
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase5XXXXX"
     }
   ],
   "mode": -1,
@@ -90,11 +90,11 @@
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "description": "",
-  "_id": "bLbdyPDUuTg83Fne",
+  "_id": "HeistPlaylist000",
   "sort": 0,
   "ownership": {
     "default": 0,
     "2Ix5Tl3gxkKU6taP": 3
   },
-  "_key": "!playlists!bLbdyPDUuTg83Fne"
+  "_key": "!playlists!HeistPlaylist000"
 }
