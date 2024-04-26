@@ -17,15 +17,6 @@ export function registerSettings() {
     requiresReload: true,
   });
 
-  game.settings.register(HEIST.MODULE_ID, 'stopWithPause', {
-    name: 'HEISTMUSIC.Settings.StopWithPause.Title',
-    scope: 'world',
-    config: true,
-    default: true,
-    type: Boolean,
-    requiresReload: true,
-  });
-
   game.settings.register(HEIST.MODULE_ID, 'useCreationForProgression', {
     name: 'HEISTMUSIC.Settings.UseCreationForProgression.Title',
     hint: 'HEISTMUSIC.Settings.UseCreationForProgression.Hint',

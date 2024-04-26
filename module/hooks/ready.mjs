@@ -13,6 +13,8 @@ export const Ready = {
         game[HEIST.MODULE_ID] = {
           syncMusics: new app.SyncMusicsApp(),
         };
+
+        await game[HEIST.MODULE_ID].syncMusics.init();
       }
     });
   },

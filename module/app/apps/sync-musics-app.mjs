@@ -4,18 +4,18 @@ export class SyncMusicsApp extends Application {
   constructor(options = {}) {
     super(options);
 
-    this.phaseNumber = game.heist.gamePhaseWindow.currentPhase?.number;
-
     this.#checkPlaylist();
+  }
 
-    if (game.settings.get(HEIST.MODULE_ID, 'stopWithPause')) {
-      Hooks.on('pauseGame', async (paused) => {
-        await this.#onPauseChange(paused);
-      });
-    }
+  async init() {
+    this.phaseNumber = game.heist.gamePhaseWindow.currentPhase?.number;
 
     Hooks.on('heist.changeGamePhase', async (phase) => {
       await this.#onGamePhaseChanged(phase);
+    });
+
+    Hooks.on('heist.changeGamePhasePause', async (isPaused) => {
+      await this.#onPauseChange(isPaused);
     });
   }
 
@@ -54,7 +54,7 @@ export class SyncMusicsApp extends Application {
       this.phaseNumber = phase.number;
     }
 
-    if (previousPhase !== this.phaseNumber) {
+    if (previousPhase !== this.phaseNumber && !game.heist.gamePhaseWindow.isPaused) {
       await this.#stop();
 
       await this.#play();
@@ -62,10 +62,6 @@ export class SyncMusicsApp extends Application {
   }
 
   async #play() {
-    if (game.settings.get(HEIST.MODULE_ID, 'stopWithPause') && game.paused) {
-      return;
-    }
-
     const sound = this.#phaseSound;
     if (!sound) {
       return;
