@@ -48,11 +48,7 @@ export class SyncMusicsApp extends Application {
   async #onGamePhaseChanged(phase) {
     const previousPhase = this.phaseNumber;
 
-    if (5 === phase.number && game.settings.get(HEIST.MODULE_ID, 'useCreationForProgression')) {
-      this.phaseNumber = 0;
-    } else {
-      this.phaseNumber = phase.number;
-    }
+    this.phaseNumber = phase.number;
 
     if (previousPhase !== this.phaseNumber && !game.heist.gamePhaseWindow.isPaused) {
       await this.#stop();
@@ -89,7 +85,7 @@ export class SyncMusicsApp extends Application {
       return;
     }
 
-    if (5 !== playlist.sounds.size) {
+    if (6 !== playlist.sounds.size) {
       ui.notifications.error(game.i18n.localize('HEISTMUSIC.Errors.InvalidSoundsCount'));
     }
   }
