@@ -70,6 +70,20 @@
       "flags": {},
       "description": "",
       "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase5XXXXX"
+    },
+    {
+      "name": "6. Progression",
+      "path": "modules/heist-musics/musics/phase-1.ogg",
+      "_id": "HeistPhase6XXXXX",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.5,
+      "fade": null,
+      "sort": 0,
+      "flags": {},
+      "description": "",
+      "_key": "!playlists.sounds!HeistPlaylist000.HeistPhase6XXXXX"
     }
   ],
   "mode": -1,
@@ -86,7 +100,7 @@
     "systemVersion": "#{VERSION}#",
     "coreVersion": "11.315",
     "createdTime": 1714132101328,
-    "modifiedTime": 1714132215307,
+    "modifiedTime": 1714248271540,
     "lastModifiedBy": "2Ix5Tl3gxkKU6taP"
   },
   "description": "",
