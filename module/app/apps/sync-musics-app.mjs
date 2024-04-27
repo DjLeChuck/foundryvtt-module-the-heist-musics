@@ -23,7 +23,7 @@ export class SyncMusicsApp extends Application {
    * @return {Playlist|null}
    */
   get playlist() {
-    return game.playlists.get(game.settings.get(HEIST.MODULE_ID, 'playlist'));
+    return game.playlists.get(game.settings.get(HEIST.MODULE_ID, 'playlist')) ?? null;
   }
 
   /**
@@ -34,7 +34,7 @@ export class SyncMusicsApp extends Application {
       return null;
     }
 
-    return this.playlist.sounds.contents[this.phaseNumber] ?? null;
+    return this.playlist?.sounds.contents[this.phaseNumber] ?? null;
   }
 
   async #onPauseChange(isPaused) {
@@ -63,7 +63,7 @@ export class SyncMusicsApp extends Application {
       return;
     }
 
-    await this.playlist.playSound(sound);
+    await this.playlist?.playSound(sound);
   }
 
   async #pause() {
@@ -72,11 +72,11 @@ export class SyncMusicsApp extends Application {
       return;
     }
 
-    await this.#phaseSound?.update({ playing: false, pausedTime: sound.sound.currentTime });
+    await sound.update({ playing: false, pausedTime: sound.sound.currentTime });
   }
 
   async #stop() {
-    await this.playlist.stopAll();
+    await this.playlist?.stopAll();
   }
 
   #checkPlaylist() {
@@ -85,7 +85,7 @@ export class SyncMusicsApp extends Application {
       return;
     }
 
-    if (6 !== playlist.sounds.size) {
+    if (HEIST.PLAYLIST_SIZE !== playlist.sounds.size) {
       ui.notifications.error(game.i18n.localize('HEISTMUSIC.Errors.InvalidSoundsCount'));
     }
   }

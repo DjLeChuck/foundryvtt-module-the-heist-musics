@@ -1,5 +1,6 @@
 {
   "HEISTMUSIC.Settings.Playlist.Title": "Playlist of music for each phase",
   "HEISTMUSIC.Settings.Playlist.Hint": "Must include 6 tracks: one for each phase, in order.",
+  "HEISTMUSIC.Settings.Playlist.NoSelection": "-- No selection --",
   "HEISTMUSIC.Errors.InvalidSoundsCount": "The selected playlist must include 6 tracks."
 }

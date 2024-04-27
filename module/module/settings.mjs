@@ -1,9 +1,15 @@
 import * as HEIST from '../const.mjs';
 
 export function registerSettings() {
-  const choices = {};
+  const choices = {
+    '': game.i18n.localize('HEISTMUSIC.Settings.Playlist.NoSelection'),
+  };
 
   game.playlists.forEach((playlist) => {
+    if (HEIST.PLAYLIST_SIZE !== playlist.sounds.size) {
+      return;
+    }
+
     choices[playlist.id] = playlist.name;
   });
 
@@ -15,6 +21,5 @@ export function registerSettings() {
     config: true,
     default: '',
     type: String,
-    requiresReload: true,
   });
 }
