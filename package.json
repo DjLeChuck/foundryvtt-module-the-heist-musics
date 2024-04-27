@@ -5,7 +5,8 @@
   "description": "Compiler for the module The Heist - Official musics",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -c -w"
+    "watch": "rollup -c -w",
+    "pack-packs": "node pack-packs.mjs"
   },
   "browserslist": [
     "last 3 versions"
