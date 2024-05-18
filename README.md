@@ -21,6 +21,14 @@ alors la dernière version et profiterez des mises à jour automatiques.
 Sinon, il est possible l’ajouter en utilisant le lien de son manifest :
 `https://github.com/DjLeChuck/foundryvtt-module-the-heist-musics/releases/latest/download/module.json`
 
+## Paramétrage
+
+Pour paramétrer la playlist, il faut procéder ainsi :
+
+* Importer la playlist `Musiques officielles` du compendium `Musiques des phases de jeu` ;
+* Recharger la fenêtre ;
+* Aller dans les options du module `The Heist - Official musics` et sélectionner la playlist `Musiques officielles`.
+
 ## Comment contribuer ?
 
 ### Rapport de bug
@@ -45,6 +53,14 @@ have the latest version and benefit from automatic updates.
 
 Alternatively, you can add it using its manifest link:
 `https://github.com/DjLeChuck/foundryvtt-module-the-heist-musics/releases/latest/download/module.json`
+
+## Setting
+
+To set up the playlist, proceed as follows:
+
+* Import the `Musiques officielles` playlist from the `Musiques des phases de jeu` compendium;
+* Reload the window;
+* Go to `The Heist - Official musics` module options and select the `Musiques officielles` playlist.
 
 ## How to contribute?
 
